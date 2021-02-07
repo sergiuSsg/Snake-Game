@@ -33,7 +33,6 @@ function startGame() {
 }
 
 function move() {
-    //check for collision with the 4 walls
     if (
         (currentSnake[0] % width === 9 && direction === 1) ||
         (currentSnake[0] + width >= (width * width) && direction === width) ||
@@ -75,7 +74,6 @@ function resetSnake() {
     currentSnake.forEach(number => squares[number].classList.add("snake"))
     snakeSpeed = 800
 }
-
 
 function collision(event) {
     if (event.keyCode === 68) {
