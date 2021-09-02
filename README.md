@@ -5,7 +5,6 @@ It was made with a different concept on a exact 10 x 10 grid, using modulus to f
 The game stops when the snake collides with one of the four walls or itself and has the score above the grid. 
 "P" can also be pressed to stop the game at any time.
  
-
 I made use of the following:
 -event listeners
 -query selectors
